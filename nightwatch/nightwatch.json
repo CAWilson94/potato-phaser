@@ -1,0 +1,11 @@
+module.export = {
+    'Phaser game blah': function(client){
+        var thrust = client.page.thrustPlatform();
+        thrust.navigate().waitForElementVisible('body', 1000 )
+    },
+
+    'Potato Loads like a potato does': function(client){
+        client
+        .assert.currentState('Boot')
+    }
+};
