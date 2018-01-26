@@ -21,6 +21,10 @@ npm install expose-loader
 
 npm install babel-core
 
+npm install babel-loader webpack --save
+
+npm install webpack -dev-server --save -dev
+
 npm run build
 
 npm run serve 
