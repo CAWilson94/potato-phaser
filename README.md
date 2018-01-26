@@ -25,6 +25,8 @@ npm install babel-loader webpack --save
 
 npm install webpack -dev-server --save -dev
 
+npm install 
+
 npm run build
 
 npm run serve 
